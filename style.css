@@ -280,6 +280,9 @@ header {
     gap: 1rem;
     align-self: flex-end;
   }
+  .card{
+    width: min(280px, 100%);
+  }
 }
 
 
