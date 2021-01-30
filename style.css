@@ -76,7 +76,7 @@ a {
 }
 
 .container {
-  width: min(85%, 1200px);
+  width: min(80%, 1200px);
   margin: auto;
 }
 
@@ -135,7 +135,7 @@ header {
 .card {
   padding: 2rem;
   background: var(--Col-Card-BG);
-  width: min(350px, 100%);
+  width: min(320px, 100%);
   border-radius: 0.3rem;
   transition: all 0.01s ease-in-out;
 
