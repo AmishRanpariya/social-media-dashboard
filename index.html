@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="is_dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Social Media | Dashboard</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="main-header">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: <span id="total_followers">23,004</span></p>
+      </div>
+      <div class="side-header">
+        <div class="switch">
+          <input id="theme-type" type="checkbox" class="switch-input" />
+          <label for="theme-type" class="switch-label"></label>
+        </div>
+        <div>
+          <p>Dark Mode</p>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="card card_main top-border fb">
+        <div class="card_top">
+          <a class="icon" href="#"><img src="./images/icon-facebook.svg" alt="facebook" /></a>
+          <p class="username">@nathanf</p>
+        </div>
+        <div class="card_middle">
+          <h1 class="numbers_of_followers" id="fb-count">1987</h1>
+          <p>Followers</p>
+        </div>
+        <div class="card_bottom">
+          <img class="up" src="./images/icon-up.svg" alt="change-type" />
+          <p class="change up">
+            <span id="fb-change">12</span>
+            Today
+          </p>
+        </div>
+      </div>
+      <div class="card card_main top-border twitter">
+        <div class="card_top">
+          <a class="icon" href="#"><img src="./images/icon-twitter.svg" alt="twitter" /></a>
+          <p class="username">@nathanf</p>
+        </div>
+        <div class="card_middle">
+          <h1 class="numbers_of_followers" id="twitter-count">1044</h1>
+          <p>Followers</p>
+        </div>
+        <div class="card_bottom">
+          <img class="up" src="./images/icon-up.svg" alt="change-type" />
+          <p class="change up">
+            <span id="twitter-change">99</span>
+            Today
+          </p>
+        </div>
+      </div>
+      <div class="card card_main top-border insta">
+        <div class="card_top">
+          <a class="icon" href="#"><img src="./images/icon-instagram.svg" alt="instagram" /></a>
+          <p class="username">@realnathanf</p>
+        </div>
+        <div class="card_middle">
+          <h1 class="numbers_of_followers" id="insta-count">11k</h1>
+          <p>Followers</p>
+        </div>
+        <div class="card_bottom">
+          <img class="up" src="./images/icon-up.svg" alt="change-type" />
+          <p class="change up">
+            <span id="insta-change">1099</span>
+            Today
+          </p>
+        </div>
+      </div>
+      <div class="card card_main top-border yt">
+        <div class="card_top">
+          <a class="icon" href="#"><img src="./images/icon-youtube.svg" alt="youtube" /></a>
+          <p class="username">Nathan F.</p>
+        </div>
+        <div class="card_middle">
+          <h1 class="numbers_of_followers" id="yt-count">8239</h1>
+          <p>Subscribers</p>
+        </div>
+        <div class="card_bottom">
+          <img class="down" src="./images/icon-down.svg" alt="change-type" />
+          <p class="change down">
+            <span id="yt-change">144</span>
+            Today
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="overview-heading">Overview - Today</h2>
+      <div class="overview-container">
+        <div class="card card_sec">
+          <div class="wrapper left">
+            <h3 class="heading">Page Views</h3>
+            <h1 class="count" id="">87</h1>
+          </div>
+          <div class="wrapper right">
+            <a class="icon" href="#"><img src="./images/icon-facebook.svg" alt="facebook" /></a>
+            <div>
+              <img class="up down" src="./images/icon-up.svg" alt="change_type" />
+              <p class="change up"><span id="fb_change_rate">3</span>%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card_sec">
+          <div class="wrapper left">
+            <h3 class="heading">Likes</h3>
+            <h1 class="count" id="">52</h1>
+          </div>
+          <div class="wrapper right">
+            <a class="icon" href="#"><img src="./images/icon-facebook.svg" alt="facebook" /></a>
+            <div>
+              <img class="down" src="./images/icon-down.svg" alt="change_type" />
+              <p class="change down"><span id="fb_change_rate">2</span>%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card_sec">
+          <div class="wrapper left">
+            <h3 class="heading">Likes</h3>
+            <h1 class="count" id="">5462</h1>
+          </div>
+          <div class="wrapper right">
+            <a class="icon" href="#"><img src="./images/icon-instagram.svg" alt="instagram" /></a>
+            <div>
+              <img class="up" src="./images/icon-up.svg" alt="change_type" />
+              <p class="change up"><span id="insta_change_rate">2257</span>%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card_sec">
+          <div class="wrapper left">
+            <h3 class="heading">Profile Views</h3>
+            <h1 class="count" id="">52k</h1>
+          </div>
+          <div class="wrapper right">
+            <a class="icon" href="#"><img src="./images/icon-instagram.svg" alt="instagram" /></a>
+            <div>
+              <img class="up" src="./images/icon-up.svg" alt="change_type" />
+              <p class="change up"><span id="insta_change_rate">1375</span>%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card_sec">
+          <div class="wrapper left">
+            <h3 class="heading">Retweets</h3>
+            <h1 class="count" id="">117</h1>
+          </div>
+          <div class="wrapper right">
+            <a class="icon" href="#"><img src="./images/icon-twitter.svg" alt="twitter" /></a>
+            <div>
+              <img class="up" src="./images/icon-up.svg" alt="change_type" />
+              <p class="change up"><span id="twitter_change_rate">303</span>%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card_sec">
+          <div class="wrapper left">
+            <h3 class="heading">Likes</h3>
+            <h1 class="count" id="">507</h1>
+          </div>
+          <div class="wrapper right">
+            <a class="icon" href="#"><img src="./images/icon-twitter.svg" alt="twitter" /></a>
+            <div>
+              <img class="up" src="./images/icon-up.svg" alt="change_type" />
+              <p class="change up"><span id="twitter_change_rate">553</span>%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card_sec">
+          <div class="wrapper left">
+            <h3 class="heading">Likes</h3>
+            <h1 class="count" id="">107</h1>
+          </div>
+          <div class="wrapper right">
+            <a class="icon" href="#"><img src="./images/icon-youtube.svg" alt="youtube" /></a>
+            <div>
+              <img class="down" src="./images/icon-down.svg" alt="change_type" />
+              <p class="change down"><span id="yt_change_rate">19</span>%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card_sec">
+          <div class="wrapper left">
+            <h3 class="heading">Total Views</h3>
+            <h1 class="count" id="">1407</h1>
+          </div>
+          <div class="wrapper right">
+            <a class="icon" href="#"><img src="./images/icon-youtube.svg" alt="youtube" /></a>
+            <div>
+              <img class="down" src="./images/icon-down.svg" alt="change_type" />
+              <p class="change down"><span id="yt_change_rate">12</span>%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
